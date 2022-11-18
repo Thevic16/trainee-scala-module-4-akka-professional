@@ -1,0 +1,53 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 38 products, 5 sources, 3 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala, ${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala, ${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/Guest.scala, ${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/Barista.scala, ${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/Waiter.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.lightbend.training.coffeehouse.CoffeeHouseApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.lightbend.training.coffeehouse.CoffeeHouseApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouseApp.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.lightbend.training.coffeehouse.CoffeeHouseApp[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.4.3:compile for Scala 2.13.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 54cffe80 for Scala compiler version 2.13.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:_[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfatal-warnings[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/classes:/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/common/target/scala-2.13/classes:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.11/akka-actor_2.13-2.6.11.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.11/akka-slf4j_2.13-2.6.11.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/akka/akka-diagnostics_2.13/1.1.16/akka-diagnostics_2.13-1.1.16.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-akka_2.13/2.13.1/cinnamon-akka_2.13-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-jvm-metrics-producer/2.13.1/cinnamon-jvm-metrics-producer-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus/2.13.1/cinnamon-prometheus-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus-httpserver/2.13.1/cinnamon-prometheus-httpserver-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-java/2.13.1/cinnamon-java-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-scala_2.13/2.13.1/cinnamon-scala_2.13-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-core-java/2.13.1/cinnamon-core-java-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.8.0/simpleclient-0.8.0.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_httpserver/0.8.0/simpleclient_httpserver-0.8.0.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-core_2.13/2.13.1/cinnamon-core_2.13-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/cinnamon/cinnamon-common/2.13.1/cinnamon-common-2.13.1.jar:/home/victor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.8.0/simpleclient_common-0.8.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.lightbend.training.coffeehouse.CoffeeHouseApp...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.lightbend.training.coffeehouse.CoffeeHouseApp[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.lightbend.training.coffeehouse.CoffeeHouseApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.lightbend.training.coffeehouse.CoffeeHouseApp,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The com.lightbend.training.coffeehouse.CoffeeHouseApp has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(com.lightbend.training.coffeehouse.CoffeeHouseApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 16.04139296 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/scala/com/lightbend/training/coffeehouse/GuestSpec.scala:13:45: not enough arguments for method props: (waiter: akka.actor.ActorRef, favoriteCoffee: com.lightbend.training.coffeehouse.Coffee, finishCoffeeDuration: scala.concurrent.duration.FiniteDuration): akka.actor.Props.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter finishCoffeeDuration.[0m
+[0m[[0m[31merror[0m] [0m[0m      val guest = system.actorOf(Guest.props(system.deadLetters, Coffee.Akkaccino))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/scala/com/lightbend/training/coffeehouse/GuestSpec.scala:23:45: not enough arguments for method props: (waiter: akka.actor.ActorRef, favoriteCoffee: com.lightbend.training.coffeehouse.Coffee, finishCoffeeDuration: scala.concurrent.duration.FiniteDuration): akka.actor.Props.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter finishCoffeeDuration.[0m
+[0m[[0m[31merror[0m] [0m[0m      val guest = system.actorOf(Guest.props(waiter.ref, Coffee.Akkaccino))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

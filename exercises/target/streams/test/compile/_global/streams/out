@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/scala/com/lightbend/training/coffeehouse/WaiterSpec.scala:33:26: value FrustratedException is not a member of object com.lightbend.training.coffeehouse.Waiter[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean FrustatedException?[0m
+[0m[[0m[31merror[0m] [0m[0m      EventFilter[Waiter.FrustratedException.type](occurrences = 1) intercept {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/scala/com/lightbend/training/coffeehouse/WaiterSpec.scala:33:52: not found: value occurrences[0m
+[0m[[0m[31merror[0m] [0m[0m      EventFilter[Waiter.FrustratedException.type](occurrences = 1) intercept {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

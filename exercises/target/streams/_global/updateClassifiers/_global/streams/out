@@ -1,0 +1,4 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module%204%20-%20akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/"), "exercises")...
+[debug] Done updating ProjectRef(uri("file:/home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module%204%20-%20akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/"), "exercises")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

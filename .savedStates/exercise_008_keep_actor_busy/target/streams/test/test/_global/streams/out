@@ -1,0 +1,53 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 5 initial tasks for 5 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.CoffeeHouseSpec, sbt.ForkMain$SubclassFingerscan@36d64342, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging a status message at debug[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a child actor with the name 'barista'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a child actor with the name 'waiter'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CreateGuest to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a Guest[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.GuestSpec, sbt.ForkMain$SubclassFingerscan@39ba5a14, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGuestSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CoffeeServed to Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in increasing the coffeeCount and log a status message at info[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ServeCoffee to Waiter after finishCoffeeDuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CoffeeFinished to Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ServeCoffee to Waiter[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.WaiterSpec, sbt.ForkMain$SubclassFingerscan@511baa65, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWaiterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending ServeCoffee to Waiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending PrepareCoffee to Barista[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.CoffeeHouseAppSpec, sbt.ForkMain$SubclassFingerscan@340f438e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseAppSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling argsToOpts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct opts for the given args[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling applySystemProperties[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should apply the system properties for the given opts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouseApp[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a top-level actor named 'coffee-house'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling createGuest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending CreateGuest to CoffeeHouse count number of times[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.BaristaSpec, sbt.ForkMain$SubclassFingerscan@30c7da1e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaristaSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending PrepareCoffee to Barista[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending a CoffeePrepared response after prepareCoffeeDuration[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 13 seconds, 307 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 13[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.CoffeeHouseSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.GuestSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.WaiterSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.CoffeeHouseAppSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.BaristaSpec[0m

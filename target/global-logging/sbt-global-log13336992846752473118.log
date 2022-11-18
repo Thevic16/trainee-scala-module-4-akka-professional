@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseAppSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling argsToOpts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct opts for the given args[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling applySystemProperties[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should apply the system properties for the given opts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 60 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Aug 25, 2022, 5:31:34 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,7 @@
+#Successful Tests
+#Wed Aug 31 18:18:04 AST 2022
+com.lightbend.training.coffeehouse.CoffeeHouseSpec=1661984283159
+com.lightbend.training.coffeehouse.BaristaSpec=1661984284610
+com.lightbend.training.coffeehouse.GuestSpec=1661984283475
+com.lightbend.training.coffeehouse.CoffeeHouseAppSpec=1661984284252
+com.lightbend.training.coffeehouse.WaiterSpec=1661984283726

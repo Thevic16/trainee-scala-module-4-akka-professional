@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/project/target/scala-2.12/sbt-1.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AdditionalSettings$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Man$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dependencies.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CommonSettings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Version.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CommonSettings$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ShellPrompt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Version$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ShellPrompt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SavedStates.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompileOptions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Navigation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AdditionalSettings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompileOptions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Navigation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dependencies$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Man.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SavedStates$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 4 - akka_scala_professional/LAS-P-lightbend-akka-for-scala-professional-v1/project/target/scala-2.12/sbt-1.0/classes.bak[0m

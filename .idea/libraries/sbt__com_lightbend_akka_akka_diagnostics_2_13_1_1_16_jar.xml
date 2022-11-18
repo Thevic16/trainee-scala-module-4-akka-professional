@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.lightbend.akka:akka-diagnostics_2.13:1.1.16:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/akka/akka-diagnostics_2.13/1.1.16/akka-diagnostics_2.13-1.1.16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo.lightbend.com/pass/bCLKD6MRD_LhU3TruDIWNLU6WeluJ4sKAik-aZ_q6YnqphlS/commercial-releases/com/lightbend/akka/akka-diagnostics_2.13/1.1.16/akka-diagnostics_2.13-1.1.16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

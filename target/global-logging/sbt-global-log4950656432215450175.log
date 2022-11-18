@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(gotoExerciseNr 018, Some(0d630411-aa32-4947-b4df-fa00d1bf5c23), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
