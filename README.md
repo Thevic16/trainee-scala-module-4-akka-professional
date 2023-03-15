@@ -260,3 +260,4 @@ man [e] > coffee-house > initial-state > listExercises
 .
 .
 ```
+# trainee-scala-module-4-akka-professional
