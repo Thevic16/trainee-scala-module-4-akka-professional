@@ -10,6 +10,7 @@ import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await
 import scala.concurrent.duration.{DurationInt, FiniteDuration}
+import scala.language.postfixOps
 
 abstract class BaseAkkaSpec extends BaseSpec with BeforeAndAfterAll {
 
